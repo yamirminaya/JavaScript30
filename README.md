@@ -6,4 +6,4 @@ Reto personal por 30 días para aprender/refrescar/volver a aprender JavaScript.
 
 ### Temario:
 
-1. JavaScript Drum Kit [[Código](https://github.com/yamirminaya/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)] [Demo]
+1. JavaScript Drum Kit [[README](https://github.com/yamirminaya/JavaScript30/blob/master/01%20-%20JavaScript%20Drum%20Kit/README.md)] [[CÓDIGO](https://github.com/yamirminaya/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)] [Demo]
