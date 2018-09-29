@@ -7,7 +7,7 @@ Se vieron los siguientes tipos de inputs:
 * color: Permite al usuario especificar un color. [Documentación](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input/color)
 
 En CSS:
-* :root: [Documentación](https://developer.mozilla.org/es/docs/Web/CSS/:root)
+* display: flex; [Documentación](https://developer.mozilla.org/es/docs/Web/CSS/:root)
 
 En JS:
 * HTMLElement.dataset: Obtiene todos los (data-*) del elemento HTML [Documentación](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
