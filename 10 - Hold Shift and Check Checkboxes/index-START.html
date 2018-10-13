@@ -104,6 +104,33 @@
   </div>
 
 <script>
+  const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
+  
+  let lastChecked;
+
+  function handleCheck(e) {
+    // Compruebe si tenían la tecla de cambio hacia abajo
+    // Y comprueba que lo están comprobando
+    let inBetween = false;
+    if(e.shiftKey && this.checked) {
+      // sigue adelante y haz lo que nos plazca
+      // recorre cada casilla de verificación
+      checkboxes.forEach(checkbox => {
+        
+        if(checkbox===this || checkbox===lastChecked) {
+          inBetween = !inBetween;
+        }
+        
+        if(inBetween) {
+          checkbox.checked = true;
+        }
+
+      });
+    }
+    lastChecked = this;
+  }
+
+  checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck))
 </script>
 </body>
 </html>
